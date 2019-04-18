@@ -1,0 +1,18 @@
+{
+	"display": {
+		"title": "Bookshelf",
+		"description": "",
+		"icon": {
+			"item": "minecraft:oak_trapdoor",
+			"nbt": "{CustomModelData: 80010}"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	},
+	"parent": "chuckchuk:chuckchuk"
+}
