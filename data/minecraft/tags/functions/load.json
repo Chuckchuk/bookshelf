@@ -1,6 +1,6 @@
 {
     "replace": "false",
     "values": [
-	"bookshelf:initialize3"
+	"bookshelf:initialize"
     ]
 }
