@@ -1,0 +1,33 @@
+{
+	"values": [
+		"minecraft:iron_trapdoor",
+        "minecraft:ladder",
+        "#minecraft:carpets",
+        "#minecraft:slabs",
+        "#minecraft:stairs",
+        "#minecraft:saplings",
+        "#minecraft:buttons",
+        "#minecraft:doors",
+        "#minecraft:rails",
+        "#minecraft:wooden_pressure_plates",
+        "minecraft:heavy_weighted_pressure_plate",
+        "minecraft:light_weighted_pressure_plate",
+        "minecraft:stone_pressure_plate",
+        "minecraft:oak_fence",
+        "minecraft:spruce_fence",
+        "minecraft:birch_fence",
+        "minecraft:jungle_fence",
+        "minecraft:acacia_fence",
+        "minecraft:dark_oak_fence",
+        "minecraft:nether_brick_fence",
+        "minecraft:oak_fence_gate",
+        "minecraft:spruce_fence_gate",
+        "minecraft:birch_fence_gate",
+        "minecraft:jungle_fence_gate",
+        "minecraft:acacia_fence_gate",
+        "minecraft:dark_oak_fence_gate",
+        "minecraft:cobblestone_wall",
+        "minecraft:mossy_cobblestone_wall"
+        
+	]
+}

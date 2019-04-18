@@ -1,0 +1,1 @@
+execute as @s run kill @e[distance=0..1,type=armor_stand,tag=chk.bookshelf]

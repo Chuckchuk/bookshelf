@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "#_#",
+        "#_#",
+        "#_#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:dark_prismarine"
+        },
+        "_": {
+            "item": "minecraft:dark_prismarine_slab"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 2
+    },
+    "group": "shelves_brick"
+}

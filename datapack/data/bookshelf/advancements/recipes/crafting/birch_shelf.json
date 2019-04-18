@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "bookshelf:birch_bookshelf"
+				
+			}
+		}
+	},
+	"parent": "bookshelf:recipes/root",
+	"rewards": {
+		"function": "bookshelf:recipes/crafting/birch_shelf"
+	}
+}

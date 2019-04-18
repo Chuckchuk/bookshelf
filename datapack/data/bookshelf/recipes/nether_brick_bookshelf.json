@@ -1,0 +1,21 @@
+{
+    "type": "crafting_shaped",
+    "pattern": [
+        "#_#",
+        "#_#",
+        "#_#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:nether_bricks"
+        },
+        "_": {
+            "item": "minecraft:nether_brick_slab"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 2
+    },
+    "group": "shelves_brick"
+}

@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "bookshelf:red_sandstone_bookshelf"
+				
+			}
+		}
+	},
+	"parent": "bookshelf:recipes/root",
+	"rewards": {
+		"function": "bookshelf:recipes/crafting/red_sandstone_shelf"
+	}
+}

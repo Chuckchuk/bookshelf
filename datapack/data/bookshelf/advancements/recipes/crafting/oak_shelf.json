@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "bookshelf:oak_bookshelf"
+				
+			}
+		}
+	},
+	"parent": "bookshelf:recipes/root",
+	"rewards": {
+		"function": "bookshelf:recipes/crafting/oak_shelf"
+	}
+}

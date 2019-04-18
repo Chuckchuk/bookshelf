@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"place": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:acacia_trapdoor",
+					"nbt": "{Tags:[chk.acacia_bookshelf,chk.bookshelf]}"
+					}
+				}
+			}
+		},
+    "parent": "bookshelf:place/root",
+	"rewards": {
+		"function": "bookshelf:place/place"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "bookshelf:stone_bookshelf"
+				
+			}
+		}
+	},
+	"parent": "bookshelf:recipes/root",
+	"rewards": {
+		"function": "bookshelf:recipes/crafting/stone_shelf"
+	}
+}

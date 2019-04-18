@@ -1,0 +1,17 @@
+{
+	"criteria": {
+		"place": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"item": "minecraft:iron_trapdoor",
+					"nbt": "{Tags:[chk.sandstone_bookshelf,chk.iron_shelf,chk.bookshelf]}"
+					}
+				}
+			}
+		},
+    "parent": "bookshelf:place/root",
+	"rewards": {
+		"function": "bookshelf:place/place"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"criteria": {
+		"recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "bookshelf:dark_prismarine_bookshelf"
+				
+			}
+		}
+	},
+	"parent": "bookshelf:recipes/root",
+	"rewards": {
+		"function": "bookshelf:recipes/crafting/dark_prismarine_shelf"
+	}
+}
