@@ -18,3 +18,10 @@ execute as @e[distance=..0.5,tag=chk.bookshelf,tag=chk.shelf3] run data modify e
 execute as @e[distance=..0.5,tag=chk.bookshelf,tag=chk.shelf4] run data modify entity @e[type=item, limit=1, tag=chk.item4, sort=nearest] Item set from entity @s HandItems[0]
 execute as @e[distance=..0.5,tag=chk.bookshelf,tag=chk.shelf5] run data modify entity @e[type=item, limit=1, tag=chk.item5, sort=nearest] Item set from entity @s HandItems[0]
 execute as @e[distance=..0.5,tag=chk.bookshelf,tag=chk.shelf6] run data modify entity @e[type=item, limit=1, tag=chk.item6, sort=nearest] Item set from entity @s HandItems[0]
+
+tag @e[tag=chk.shelf1] remove chk.shelf1
+tag @e[tag=chk.shelf2] remove chk.shelf2
+tag @e[tag=chk.shelf3] remove chk.shelf3
+tag @e[tag=chk.shelf4] remove chk.shelf4
+tag @e[tag=chk.shelf5] remove chk.shelf5
+tag @e[tag=chk.shelf6] remove chk.shelf6

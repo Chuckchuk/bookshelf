@@ -38,6 +38,6 @@ execute as @s run function bookshelf:remove/drop_shelves
 
 #execute as @s[tag=!chk.full_shelf] run function bookshelf:remove/drop_shelves
 
-#execute at @s[tag=!chk.full_shelf] run kill @e[distance=..0.5,tag=chk.bookshelf]
+#execute at @s[tag=!chk.full_shelf] run kill @e[type=armor_stand,distance=..0.5,tag=chk.bookshelf]
 
 #execute at @s run tag @e[distance=0..5] remove chk.full_shelf

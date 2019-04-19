@@ -49,4 +49,4 @@ execute at @s[tag=chk.dark_prismarine_shelf] unless entity @p[gamemode=creative]
 
 
 ##Kill them
-execute at @s run kill @e[distance=..0.5,tag=chk.bookshelf]
+execute at @s run kill @e[type=armor_stand,distance=..0.5,tag=chk.bookshelf]

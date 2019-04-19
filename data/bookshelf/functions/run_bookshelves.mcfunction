@@ -24,10 +24,6 @@ execute as @e[tag=chk.bookshelf] run execute at @s if entity @p[distance=0..4] r
 #function bookshelf:runif_hasshield
 
 
-
-
-
-
 #Run optimization
 
 #execute as @e[tag=chk.main_shelf] if entity @p[distance=..30] run function bookshelf:optimize
