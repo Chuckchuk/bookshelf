@@ -1,0 +1,11 @@
+{
+    "parent": "chair/throne",
+    "textures": {
+		"0": "block/gold_block",
+        "1": "block/gold_block",
+		"2": "block/gold_block",
+		"3": "block/gold_block",
+		"4": "block/gold_block",
+		"particle": "block/gold_block"
+	}
+}

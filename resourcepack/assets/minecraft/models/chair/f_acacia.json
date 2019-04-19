@@ -1,0 +1,6 @@
+{
+	"parent": "chair/f_s",
+	"textures": {
+		"0": "block/acacia_planks"
+	}
+}

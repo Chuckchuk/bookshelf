@@ -1,0 +1,11 @@
+{   
+    "parent": "chair/throne",
+	"textures": {
+		"0": "block/quartz_block_bottom",
+		"1": "block/quartz_pillar",
+		"2": "block/quartz_pillar_top",
+		"3": "block/chiseled_quartz_block_top",
+		"4": "block/quartz_block_side",
+		"particle": "block/quartz_pillar"
+	}
+}
