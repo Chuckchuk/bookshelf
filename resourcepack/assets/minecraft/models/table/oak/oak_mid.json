@@ -1,0 +1,6 @@
+{
+    "parent": "table/table_mid",
+	"textures": {
+		"0": "block/oak_planks"
+	}
+}

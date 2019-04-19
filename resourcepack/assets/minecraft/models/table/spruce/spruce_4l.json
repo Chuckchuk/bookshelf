@@ -1,0 +1,6 @@
+{
+    "parent": "table/oak/oak_4l",  
+	"textures": {
+		"0": "block/spruce_planks"
+	}
+}
