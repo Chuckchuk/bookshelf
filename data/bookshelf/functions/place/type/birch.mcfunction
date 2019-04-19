@@ -1,9 +1,14 @@
+execute as @s run tag @s add chk.birch_shelf
+execute as @s positioned ^-0.25 ^0.000 ^0.00 as @e[type=armor_stand, tag=chuckchuk.bookshelf.summoning.child, distance=0] run tag @s add chk.birch_shelf
+execute as @s positioned ^0.250 ^0.000 ^0.00 as @e[type=armor_stand, tag=chuckchuk.bookshelf.summoning.child, distance=0] run tag @s add chk.birch_shelf
+execute as @s positioned ^-0.27 ^-0.34 ^0.00 as @e[type=armor_stand, tag=chuckchuk.bookshelf.summoning.child, distance=0] run tag @s add chk.birch_shelf
+execute as @s positioned ^0.000 ^-0.34 ^0.00 as @e[type=armor_stand, tag=chuckchuk.bookshelf.summoning.child, distance=0] run tag @s add chk.birch_shelf
+execute as @s positioned ^0.270 ^-0.34 ^0.00 as @e[type=armor_stand, tag=chuckchuk.bookshelf.summoning.child, distance=0] run tag @s add chk.birch_shelf
+execute as @e[type=armor_stand, tag=chuckchuk.bookshelf.summoning.child] run tag @s remove chuckchuk.bookshelf.summoning.child
 
-#North
-execute if entity @s[y_rotation=135..225] run function bookshelf:place/summon/birch/north
+scoreboard players set #bb.modelOffset bb.calculation 2
 
-execute if entity @s[y_rotation=225..315] run function bookshelf:place/summon/birch/east
-
-execute if entity @s[y_rotation=-45..45] run function bookshelf:place/summon/birch/south
-
-execute if entity @s[y_rotation=45..135] run function bookshelf:place/summon/birch/west
+execute as @s[tag=chk.shelf_east] positioned ^ ^0.5 ^ run setblock ~ ~ ~ birch_trapdoor[facing=west, open=true]
+execute as @s[tag=chk.shelf_west] positioned ^ ^0.5 ^ run setblock ~ ~ ~ birch_trapdoor[facing=east, open=true]
+execute as @s[tag=chk.shelf_south] positioned ^ ^0.5 ^ run setblock ~ ~ ~ birch_trapdoor[facing=north, open=true]
+execute as @s[tag=chk.shelf_north] positioned ^ ^0.5 ^ run setblock ~ ~ ~ birch_trapdoor[facing=south, open=true]

@@ -2,9 +2,8 @@
 
 ###
 
-function bookshelf:remove/drop_items
-
-execute as @s run function bookshelf:remove/drop_shelves
+execute as @s at @s run function bookshelf:remove/drop_items
+execute as @s at @s run function bookshelf:remove/drop_shelves
 
 
 

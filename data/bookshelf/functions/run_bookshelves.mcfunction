@@ -1,16 +1,10 @@
-
-
-
-
-
 #Run Trapdoor (Also handles Removal)
 function bookshelf:trapdoor/trapdoor
 
-
-
-
+execute as @s[tag=!chuckchuk.bookshelf.look_at] run function bookshelf:shelves/hide
+execute as @s run tag @s remove chuckchuk.bookshelf.look_at
 #Run the shelves
-execute as @e[tag=chk.bookshelf] run execute at @s if entity @p[distance=0..4] run function bookshelf:shelves/branch_slots
+execute at @s if entity @p[distance=0..4] run function bookshelf:shelves/branch_slots
 
 #tag @e[tag=chk.bookshelf,tag=chk.fullShelf,nbt=!{HandItems:[{Count:1b},{}]}] remove chk.fullShelf
 

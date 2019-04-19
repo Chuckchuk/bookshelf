@@ -1,6 +1,6 @@
 {
-    "replace": "false",
+    "replace": false,
     "values": [
-	"bookshelf:run_bookshelves"
+	    "bookshelf:loop"
     ]
 }
