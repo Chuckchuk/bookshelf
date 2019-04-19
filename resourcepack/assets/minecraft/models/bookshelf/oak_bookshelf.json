@@ -1,0 +1,7 @@
+{
+    "parent": "bookshelf/bookshelf",
+    "textures": {
+		"0": "block/oak_planks",
+		"1": "block/oak_log_top"
+	}
+}
