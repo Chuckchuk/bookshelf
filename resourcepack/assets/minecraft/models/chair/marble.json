@@ -1,0 +1,6 @@
+{
+    "parent": "chair/oak",
+	"textures": {
+		"0": "block/quartz_pillar"
+	}
+}

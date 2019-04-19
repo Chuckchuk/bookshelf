@@ -1,0 +1,11 @@
+{
+    "parent": "chair/throne",
+	"textures": {
+        "0": "block/obsidian",
+        "1": "block/obsidian",
+		"2": "block/obsidian",
+		"3": "block/obsidian",
+		"4": "block/obsidian",
+		"particle": "block/obsidian"
+	}
+}
