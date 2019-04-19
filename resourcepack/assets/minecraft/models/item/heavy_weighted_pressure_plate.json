@@ -1,0 +1,13 @@
+{
+    "parent": "block/pressure_plate_up",
+    "textures": {
+        "texture": "block/iron_block"
+	},
+	"overrides": [
+    
+        { "predicate": {"custom_model_data": 6557}, "model": "chair/marble_throne"},
+        { "predicate": {"custom_model_data": 6558}, "model": "chair/obsidian_throne"},
+        { "predicate": {"custom_model_data": 6559}, "model": "chair/golden_throne"}
+        
+	]
+}

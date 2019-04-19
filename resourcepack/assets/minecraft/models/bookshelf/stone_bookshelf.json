@@ -1,0 +1,7 @@
+{
+    "parent": "bookshelf/bookshelf",
+    "textures": {
+		"0": "block/stone",
+		"1": "block/smooth_stone"
+	}
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "bookshelf/bookshelf",
+    "textures": {
+		"0": "block/prismarine",
+		"1": "block/prismarine"
+	}
+}

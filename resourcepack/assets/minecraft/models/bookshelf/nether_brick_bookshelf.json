@@ -1,0 +1,7 @@
+{
+    "parent": "bookshelf/bookshelf",
+    "textures": {
+		"0": "block/nether_bricks",
+		"1": "block/red_nether_bricks"
+	}
+}
