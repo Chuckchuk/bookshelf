@@ -4,5 +4,5 @@ tag @s remove chk.writable_book
 tag @s remove chk.enchanted_book
 tag @s remove chk.written_book
 
-replaceitem entity @s weapon.offhand minecraft:air{Count:1b}
+replaceitem entity @s weapon.offhand minecraft:air
 #say boop

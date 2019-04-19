@@ -13,8 +13,8 @@ scoreboard players operation #bb.pos.x bb.calculation -= #bb.block.x bb.calculat
 scoreboard players operation #bb.pos.y bb.calculation -= #bb.block.y bb.calculation
 scoreboard players operation #bb.pos.z bb.calculation -= #bb.block.z bb.calculation
 
-execute if block ~ ~ ~ #bookshelf:trapdoor[facing=east] run function bookshelf:player/facing/east
-execute if block ~ ~ ~ #bookshelf:trapdoor[facing=west] run function bookshelf:player/facing/west
-execute if block ~ ~ ~ #bookshelf:trapdoor[facing=south] run function bookshelf:player/facing/south
-execute if block ~ ~ ~ #bookshelf:trapdoor[facing=north] run function bookshelf:player/facing/north
+execute if block ~ ~ ~ #bookshelf:trapdoor[facing=west] run function bookshelf:player/facing/east
+execute if block ~ ~ ~ #bookshelf:trapdoor[facing=east] run function bookshelf:player/facing/west
+execute if block ~ ~ ~ #bookshelf:trapdoor[facing=north] run function bookshelf:player/facing/south
+execute if block ~ ~ ~ #bookshelf:trapdoor[facing=south] run function bookshelf:player/facing/north
 

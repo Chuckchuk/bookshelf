@@ -4,9 +4,9 @@
 
 
 #Reset the position of a trapdoor at a Bookshelf
-execute as @e[type=minecraft:armor_stand,tag=chk.main_shelf] at @s align xyz positioned ~0.5 ~1 ~0.5 if block ~ ~ ~ #trapdoors[open=false] unless block ~ ~ ~ minecraft:air run function bookshelf:trapdoor/close_tdoor
+execute align xyz positioned ~0.5 ~1 ~0.5 if block ~ ~ ~ #trapdoors[open=false] unless block ~ ~ ~ minecraft:air run function bookshelf:trapdoor/close_tdoor
 
 #If the block is air (or water), then run the remove command
-execute as @e[type=minecraft:armor_stand,tag=chk.main_shelf] at @s align xyz positioned ~0.5 ~1 ~0.5 if block ~ ~ ~ minecraft:air run function bookshelf:remove/remove
+execute align xyz positioned ~0.5 ~1 ~0.5 if block ~ ~ ~ minecraft:air run function bookshelf:remove/remove
 
-execute as @e[type=minecraft:armor_stand,tag=chk.main_shelf] at @s align xyz positioned ~0.5 ~1 ~0.5 if block ~ ~ ~ minecraft:water run function bookshelf:remove/remove
+execute align xyz positioned ~0.5 ~1 ~0.5 if block ~ ~ ~ minecraft:water run function bookshelf:remove/remove
