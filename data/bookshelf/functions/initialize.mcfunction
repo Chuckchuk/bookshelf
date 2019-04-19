@@ -6,6 +6,9 @@ scoreboard objectives add chk.distance dummy
 scoreboard objectives add chk.success dummy
 scoreboard objectives add chk.findfail dummy
 
+scoreboard objectives add bb.variable dummy
+scoreboard objectives add bb.calculation dummy
+scoreboard objectives add bb.success dummy
 
 #CONVERT
 function bookshelf:convert

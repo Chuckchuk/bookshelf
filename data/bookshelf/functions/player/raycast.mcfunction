@@ -1,0 +1,2 @@
+execute as @s align xyz positioned ~0.5 ~0.5 ~0.5 run particle happy_villager ~ ~ ~ 0 0 0 0 1 normal @s
+execute as @s[distance=..6] anchored feet positioned ^ ^ ^1 run function bookshelf:player/raycast
