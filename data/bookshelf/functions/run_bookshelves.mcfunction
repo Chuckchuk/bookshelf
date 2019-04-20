@@ -1,7 +1,11 @@
 #Run Trapdoor (Also handles Removal)
 function bookshelf:trapdoor/trapdoor
 
-execute as @s[tag=!chuckchuk.bookshelf.look_at] run function bookshelf:shelves/hide
+
+## Hide the Shelves ONLY if there is another shelf underneath, or air
+execute as @s[tag=!chuckchuk.bookshelf.look_at] at @s positioned ~ ~-1 ~ if entity @e[tag=chk.bookshelf,distance=0..0.1] run execute at @s run function bookshelf:shelves/hide
+execute as @s[tag=!chuckchuk.bookshelf.look_at] at @s positioned ~ ~-0.5 ~ if block ~ ~ ~ air run execute at @s run function bookshelf:shelves/hide
+
 execute as @s run tag @s remove chuckchuk.bookshelf.look_at
 #Run the shelves
 execute at @s if entity @p[distance=0..4] run function bookshelf:shelves/branch_slots
