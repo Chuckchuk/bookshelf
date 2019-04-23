@@ -1,0 +1,7 @@
+{
+    "parent": "bookshelf/bookshelf",
+    "textures": {
+		"0": "block/diorite",
+		"1": "block/diorite"
+	}
+}

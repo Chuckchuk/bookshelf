@@ -18,10 +18,21 @@ execute as @s[advancements={bookshelf:place/shelves/stone_brick=true}, scores={c
 execute as @s[advancements={bookshelf:place/shelves/nether_brick=true}, scores={chk.success=..0}] store success score @s chk.success as @e[type=armor_stand, tag=chuckchuk.bookshelf.summoning] at @s run function bookshelf:place/type/nether_brick
 execute as @s[advancements={bookshelf:place/shelves/quartz=true}, scores={chk.success=..0}] store success score @s chk.success as @e[type=armor_stand, tag=chuckchuk.bookshelf.summoning] at @s run function bookshelf:place/type/quartz
 execute as @s[advancements={bookshelf:place/shelves/red_sandstone=true}, scores={chk.success=..0}] store success score @s chk.success as @e[type=armor_stand, tag=chuckchuk.bookshelf.summoning] at @s run function bookshelf:place/type/red_sandstone
-execute as @s[advancements={bookshelf:place/shelves/purpur=true}, scores={chk.success=..0}] store success score @s chk.success as @e[type=armor_stand, tag=chuckchuk.bookshelf.summoning] at @s run function bookshelf:place/type/purpur_bookshelf
+execute as @s[advancements={bookshelf:place/shelves/purpur=true}, scores={chk.success=..0}] store success score @s chk.success as @e[type=armor_stand, tag=chuckchuk.bookshelf.summoning] at @s run function bookshelf:place/type/purpur
 execute as @s[advancements={bookshelf:place/shelves/prismarine=true}, scores={chk.success=..0}] store success score @s chk.success as @e[type=armor_stand, tag=chuckchuk.bookshelf.summoning] at @s run function bookshelf:place/type/prismarine
 execute as @s[advancements={bookshelf:place/shelves/prismarine_brick=true}, scores={chk.success=..0}] store success score @s chk.success as @e[type=armor_stand, tag=chuckchuk.bookshelf.summoning] at @s run function bookshelf:place/type/prismarine_brick
 execute as @s[advancements={bookshelf:place/shelves/dark_prismarine=true}, scores={chk.success=..0}] store success score @s chk.success as @e[type=armor_stand, tag=chuckchuk.bookshelf.summoning] at @s run function bookshelf:place/type/dark_prismarine
+##Update V5.2
+execute as @s[advancements={bookshelf:place/shelves/polished_granite=true}, scores={chk.success=..0}] store success score @s chk.success as @e[type=armor_stand, tag=chuckchuk.bookshelf.summoning] at @s run function bookshelf:place/type/polished_granite
+execute as @s[advancements={bookshelf:place/shelves/polished_diorite=true}, scores={chk.success=..0}] store success score @s chk.success as @e[type=armor_stand, tag=chuckchuk.bookshelf.summoning] at @s run function bookshelf:place/type/polished_diorite
+execute as @s[advancements={bookshelf:place/shelves/polished_andesite=true}, scores={chk.success=..0}] store success score @s chk.success as @e[type=armor_stand, tag=chuckchuk.bookshelf.summoning] at @s run function bookshelf:place/type/polished_andesite
+execute as @s[advancements={bookshelf:place/shelves/granite=true}, scores={chk.success=..0}] store success score @s chk.success as @e[type=armor_stand, tag=chuckchuk.bookshelf.summoning] at @s run function bookshelf:place/type/granite
+execute as @s[advancements={bookshelf:place/shelves/diorite=true}, scores={chk.success=..0}] store success score @s chk.success as @e[type=armor_stand, tag=chuckchuk.bookshelf.summoning] at @s run function bookshelf:place/type/diorite
+execute as @s[advancements={bookshelf:place/shelves/andesite=true}, scores={chk.success=..0}] store success score @s chk.success as @e[type=armor_stand, tag=chuckchuk.bookshelf.summoning] at @s run function bookshelf:place/type/andesite
+#execute as @s[advancements={bookshelf:place/shelves/XXX=true}, scores={chk.success=..0}] store success score @s chk.success as @e[type=armor_stand, tag=chuckchuk.bookshelf.summoning] at @s run function bookshelf:place/type/XXX
+
+
+
 
 execute as @e[type=armor_stand, tag=chuckchuk.bookshelf.summoning] store result score #bb.currentModel bb.calculation run data get entity @s ArmorItems[3].tag.CustomModelData
 execute as @e[type=armor_stand, tag=chuckchuk.bookshelf.summoning] store result entity @s ArmorItems[3].tag.CustomModelData int 1 run scoreboard players operation #bb.currentModel bb.calculation += #bb.modelOffset bb.calculation

@@ -13,6 +13,9 @@ scoreboard objectives add bb.success dummy
 scoreboard objectives add chk.slotData dummy
 scoreboard objectives add chk.prevSlotData dummy
 
+scoreboard objectives add chk.version dummy
+
+
 scoreboard players set #16 bb.variable 16
 
 #CONVERT

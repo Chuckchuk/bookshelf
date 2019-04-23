@@ -6,4 +6,4 @@
 
 #Executing from PLAYER
 
-execute as @s run say between 20-25
+#execute as @s run say between 20-25

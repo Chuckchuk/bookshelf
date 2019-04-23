@@ -16,3 +16,15 @@ recipe take @s bookshelf:purpur_bookshelf
 recipe take @s bookshelf:prismarine_bookshelf
 recipe take @s bookshelf:prismarine_brick_bookshelf
 recipe take @s bookshelf:dark_prismarine_bookshelf
+
+#V5.2
+recipe take @s bookshelf:polished_granite_bookshelf
+recipe take @s bookshelf:polished_diorite_bookshelf
+recipe take @s bookshelf:polished_andesite_bookshelf
+recipe take @s bookshelf:granite_bookshelf
+recipe take @s bookshelf:diorite_bookshelf
+recipe take @s bookshelf:andesite_bookshelf
+
+
+
+

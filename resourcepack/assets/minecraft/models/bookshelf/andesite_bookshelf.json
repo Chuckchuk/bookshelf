@@ -1,0 +1,7 @@
+{
+    "parent": "bookshelf/bookshelf",
+    "textures": {
+		"0": "block/andesite",
+		"1": "block/andesite"
+	}
+}
